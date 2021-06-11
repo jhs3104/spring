@@ -1,14 +1,12 @@
 package com.springboot.domain.posts;
 
 
-import javafx.geometry.Pos;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import sun.security.x509.OtherName;
 
 import java.time.LocalDateTime;
 import java.util.List;
