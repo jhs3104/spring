@@ -1,7 +1,6 @@
 package com.springboot.web;
 import org.junit.Test;
 import org.springframework.mock.env.MockEnvironment;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class ProfileControllerUnitTest {
@@ -25,11 +24,10 @@ public class ProfileControllerUnitTest {
     }
 
     @Test
-    public void real_profile이_없으면_첫번째가_조회된다() {
+    public void real_profile이_없으면_첫_번째가_조회된다() {
         //given
         String expectedProfile = "oauth";
         MockEnvironment env = new MockEnvironment();
-
         env.addActiveProfile(expectedProfile);
         env.addActiveProfile("real-db");
 
